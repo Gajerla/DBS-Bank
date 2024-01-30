@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/splitter/dbs-asia-safest-bank%202022.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease; 
+} 
+ nav {
+           
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 20px;
+    height : 50px;
+/* new  */
+overflow: auto;
+position: fixed;
+width: 100%;
+top :0;
+overflow-y: hidden;
+overflow-x: hidden;
+    
+}
+
+
+.logo img {
+    height: 28px;
+    width: 94px;
+    margin-right: 780px;
+   
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button styles */
+.dropbtn {
+    background-color:whitesmoke;
+    color: black;
+   
+    font-size: 16px;    
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown content items */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+/* Show the dropdown content when hovering over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: whitesmoke;
+}
+
+/*  */
+.login{
+    height:70px;
+    width:100px;
+    border: none;
+    color:white;
+    line-height: 70px;
+    background-color : #ff3333;
+    margin-right: 110px;
+
+}
+.login:hover{
+background-color: crimson ; 
+color: white;
+
+}
+.lock{
+    width: 14px;
+    height : 18px;
+    color:white;
+    line-height: 70px;
+}
+.page-link {
+    cursor: pointer;
+    padding: 10px 20px;
+    }
+    
+    /* Active page link style */
+    .active {
+    border-bottom: 10px solid red;
+    }
+
+
+footer {
+    background-color:whitesmoke;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.footer-item {
+    padding: 10px;
+    transition: background-color 0.5s ease; 
+}
+
+/* .footer-item:hover {
+    background-color: #ff3333 ; 
+    color: white;
+  
+  
+} */
+.rline{
+    border-bottom: 2px solid red;
+}
+footer a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.main{
+
+position:relative;
+top:70px;
+height: 485px;
+
+}
+
+.head{
+    
+    width: 100%;
+    height: 342px;;
+ 
+    display: block;
+    
+}
+.welcome{
+    color:white;
+    font-size: 36px;
+    font-weight: bold;
+    position:absolute;
+    top:80px;
+    left:80px;
+
+}
+.explore{
+    color:white; 
+    padding: 10px 14px;
+     background-color: #ff3333; 
+    border-radius: 4px; 
+    border : none;
+    font-weight:700;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    top:130px;
+    left:80px;
+    font-family : sans-serif;
+    letter-spacing: 0.3px;
+}
+
+
+.foot{
+    
+    position: absolute;
+    bottom: 0px;
+    height:140px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.line{
+    height: 100px;
+    position: relative;
+    width: 2px;
+    background-color: white;
+    border-radius: 2px;
+    margin-right :10px;
+    margin-bottom: 40px;
+    
+}
+
+.Left{
+    display:flex;
+    align-items: center;
+    
+
+}
+.leftImg{
+    background-image: url("https://th.bing.com/th/id/OIP.1eFN2mvwQWoMcihOX0bnOgAAAA?rs=1&pid=ImgDetMain");
+    width: 77px;
+    height: 77px;
+    background-size: cover;
+    
+}
+.rightImg{
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/in/27-04-2020/asian-insights.jpg");
+    width: 77px;
+    height: 77px;
+    background-size: cover;
+    margin-left: 25px;
+    
+}
+.Right{
+    display: flex;
+    align-items: center;
+    margin-right: 120px; 
+    
+}
+.leftContent{
+    margin-left: 10px;;
+}
+.rightContent{
+    margin-left: 20px;
+}
+.regional{
+   
+    margin-bottom: 120px;
+    margin-left: 40px;
+    position: absolute;
+    
+    font-size: 12px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    background: rgba(101, 101, 101, 0.5);
+    padding: 4px 15px;
+    
+
+}
+.tarrifs{
+
+    margin-bottom: 120px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 12px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    background: rgba(101, 101, 101, 0.5);
+    padding: 4px 15px;
+
+}
+
+
